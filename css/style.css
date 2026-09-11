@@ -560,6 +560,7 @@ html.has-filmpin .filmstrip-viewport { overflow: hidden; scroll-snap-type: none;
 .keyword-en { font-family: var(--font-ui); font-size: 10px; font-weight: 600; letter-spacing: 2px; color: var(--ink-40); text-transform: uppercase; }
 .keyword-zh { font-family: var(--font-serif); font-size: 20px; font-weight: 700; letter-spacing: 1px; }
 .project-title { font-family: var(--font-serif); font-size: clamp(21px, 2.3vw, 27px); font-weight: 700; letter-spacing: .6px; line-height: 1.42; margin-bottom: 10px; }
+.title-indent { display: inline-block; margin-left: -.24em; }
 .project-date { font-family: var(--font-eng); font-style: italic; font-size: 14px; color: var(--ink-40); margin-bottom: 22px; }
 .project-table-wrap { margin-bottom: 22px; }
 .project-table { border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--ink-10); }
