@@ -439,15 +439,6 @@ html.has-filmpin .filmstrip-viewport { overflow: hidden; scroll-snap-type: none;
 .tl-date { font-family: var(--font-eng); font-style: italic; font-size: 14px; color: var(--ink-40); margin-bottom: 18px; letter-spacing: .4px; }
 .tl-point { font-size: 13.5px; color: var(--ink-60); line-height: 1.8; margin-bottom: 9px; }
 .tl-point b { color: var(--ink); font-weight: 600; }
-.tl-point-highlight { position: relative; padding-left: 15px; }
-.tl-point-highlight::before {
-  content: ""; position: absolute; left: 0; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
-}
-.tl-tag {
-  display: inline-block; margin-top: 12px;
-  font-size: 11px; color: var(--white); background: var(--accent-deep);
-  padding: 4px 12px; border-radius: 999px; font-weight: 600;
-}
 .tl-dot {
   position: absolute; right: -9px; top: 34px;
   width: 18px; height: 18px; border-radius: 50%;
@@ -561,7 +552,6 @@ html.has-filmpin .filmstrip-viewport { overflow: hidden; scroll-snap-type: none;
   background: rgba(85, 36, 76, .82); color: var(--accent);
   padding: 3px 9px; border-radius: var(--radius-sm); pointer-events: none;
 }
-.gallery-hint { margin-top: 14px; font-size: 12px; color: var(--ink-40); }
 
 /* 作品正文 */
 .project-body { position: relative; z-index: 1; display: flex; flex-direction: column; }
