@@ -168,6 +168,7 @@ video { display: block; width: 100%; }
   font-weight: 700; letter-spacing: 2px; line-height: 1.2;
 }
 .section-sub { font-size: 14.5px; color: var(--ink-60); max-width: 460px; line-height: 1.85; }
+.sub-line-right { display: block; text-align: right; }
 
 /* ────────────── 按钮 ────────────── */
 .btn {
